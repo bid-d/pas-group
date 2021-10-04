@@ -94,6 +94,22 @@ bin/restart
 # The grunt is already install globally, but you still need to run this command to install grunt locally
 bin/npm install grunt --save-dev
 ```
+### Install Elasticsuite
+For anyone wants to install Elasticsuite, please append the following configuration to config.php:
+
+```php
+'system' => [
+        'default' => [
+            'smile_elasticsuite_core_base_settings' => [
+                'es_client' => [
+                    'servers' => 'elasticsearch:9200',
+                    'enable_https_mode' => 0,
+                    'enable_http_auth' => 1,
+                ]
+            ]
+        ]
+    ]
+```
 
 ## Debug
 This setup already included Xdebug installation.
