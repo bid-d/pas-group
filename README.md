@@ -6,7 +6,7 @@
   - [Setup](#setup)
   - [Debug](#debug)
   - [Custom CLI Commands](#custom-cli-commands)
-## Usage
+## Usage (test)
 
 This configuration is used for setting up a full magento 2 local development.  
 
